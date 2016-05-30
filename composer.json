@@ -9,7 +9,7 @@
     ],
     "keywords": ["frete", "prazo", "Correios", "PHP", "Composer"],
     "license": "MIT",
-    "version": "1.0.0",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "": "App/src/",
@@ -17,8 +17,6 @@
         }
     },
     "require": {
-        "php": ">=5.6.0"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+        "php": ">=5.5.0"
+    }
 }
