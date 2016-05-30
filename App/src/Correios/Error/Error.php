@@ -49,7 +49,7 @@ class Error implements ErrorInterface {
      * @return boolean false se não existir erros e true se existir
      */
     public function thereError() {
-        if (!$this->getCodeError()):
+        if ($this->getCodeError() == 0):
             return false;
         else:
             return true;
@@ -162,6 +162,8 @@ class Error implements ErrorInterface {
             $this->error = "CEP inicial e final pertencentes a Área de Risco";
         elseif ($this->getCodeError() == 7):
             $this->error = "Serviço indisponível, tente mais tarde";
+        elseif ($this->getCodeError() == 2016):
+            $this->error = "Desculpe, o prazo não foi retornado corretamente.";
         endif;
     }
 
