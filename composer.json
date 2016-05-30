@@ -1,5 +1,5 @@
 {
-    "name": "HigorChristian/correios-service",
+    "name": "correios-service",
     "version": "1.0.0",
     "autoload": {
         "psr-4": {
