@@ -1,5 +1,5 @@
 {
-    "name": "higor-christian/correios-service",
+    "name": "correios/correios-service",
     "description": "Consumir o web services dos correios com php.",
     "authors": [
         {
@@ -9,14 +9,14 @@
     ],
     "keywords": ["frete", "prazo", "Correios", "PHP", "Composer"],
     "license": "MIT",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
     "autoload": {
         "psr-4": {
             "": "App/src/",
             "Correios\\": "App/src/"
         }
-    },
-    "require": {
-        "php": ">=5.4.0"
     }
 }
