@@ -8,8 +8,8 @@ $correios = new Services;
 
 try {
 
-    // peso, comprimento, altura, largura, diametro
-    $correios->setAttrEncomenda(3, 50, 20, 70, 10);
+    // peso em KG, comprimento cm, altura cm, largura cm, diametro cm
+    $correios->setAttrEncomenda(30, 50, 20, 70, 10);
 
     /**
      * formato da encomenda  
