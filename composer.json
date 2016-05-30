@@ -1,6 +1,6 @@
 {
     "name": "higor-christian/correios-service",
-    "description": "Consome web services dos correios.",
+    "description": "Consumir o web services dos correios com php.",
     "authors": [
         {
             "name": "Higor Christian Ferreira",
@@ -18,5 +18,7 @@
     },
     "require": {
         "php": ">=5.6.0"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
