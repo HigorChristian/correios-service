@@ -3,7 +3,7 @@
     "description": "Consumir o web services dos correios com php, retornando preço, prazo e etc...",
     "version": "1.0.0",
     "type": "library",
-    "keywords": ["frete", "prazo", "Correios", "PHP", "Composer"],
+    "keywords": ["frete", "prazo", "Correios"],
     "time": "2016-05-29",
     "license": "MIT",
     "authors": [
@@ -13,13 +13,13 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {
-        "php": ">=5.3.0"
-    },
     "autoload": {
         "psr-4": {
             "": "Correios/src/",
             "Correios\\": "Correios/src/"
         }
+    },
+    "require": {
+        "php": ">=5.3.0"
     }
 }
