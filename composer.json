@@ -1,15 +1,18 @@
 {
     "name": "higorch/correios-service",
     "description": "Consumir o web services dos correios com php, retornando preço, prazo e etc...",
+    "version": "1.0.0",
+    "type": "library",
+    "keywords": ["frete", "prazo", "Correios", "PHP", "Composer"],
+    "time": "2016-05-29",
+    "license": "MIT",
     "authors": [
         {
             "name": "Higor Christian",
             "email": "higorchristianfe@gmail.com"
         }
     ],
-    "keywords": ["frete", "prazo", "Correios", "PHP", "Composer"],
-    "license": "MIT",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.0"
     },
