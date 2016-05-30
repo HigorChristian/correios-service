@@ -1,5 +1,5 @@
 {
-    "name": "correios/correios-service",
+    "name": "higorch/correios-service",
     "description": "Consumir o web services dos correios com php, retornando preço, prazo e etc...",
     "authors": [
         {
