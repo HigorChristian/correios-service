@@ -8,7 +8,7 @@ namespace Correios\ServiceInterface;
  * @author Higor Christian Ferreira
  * @copyright (c) 2016, Higor Christian Ferreira
  */
-interface ServiceInterface {
+interface FreteInterface {
 
     public function getPreco();
 

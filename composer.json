@@ -12,7 +12,6 @@
             "email": "higorchristianfe@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "": "Correios/src/",
