@@ -1,6 +1,6 @@
 <?php
 
-namespace Correios\ErrorInterface;
+namespace ErrorInterface;
 
 /**
  * Description of Services

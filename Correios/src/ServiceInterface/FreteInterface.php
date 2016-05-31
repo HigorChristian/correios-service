@@ -1,6 +1,6 @@
 <?php
 
-namespace Correios\ServiceInterface;
+namespace ServiceInterface;
 
 /**
  * Description of Services

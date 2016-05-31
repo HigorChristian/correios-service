@@ -1,9 +1,9 @@
 <?php
 
-namespace Correios\Services\Frete;
+namespace Services\Frete;
 
-use Correios\ServiceInterface\FreteInterface;
-use Correios\Services\Services;
+use ServiceInterface\FreteInterface;
+use Services\Services;
 
 /**
  * Description of Frete

@@ -1,8 +1,8 @@
 <?php
 
-namespace Correios\Error;
+namespace Error;
 
-use Correios\ErrorInterface\ErrorInterface;
+use ErrorInterface\ErrorInterface;
 
 /**
  * Description of Error

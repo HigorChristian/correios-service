@@ -2,7 +2,7 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use Correios\Services\Frete\Frete;
+use Services\Frete\Frete;
 
 $frete = new Frete;
 
@@ -14,7 +14,7 @@ try {
         'servico' => '41106',
         'cepOrigem' => '74672053',
         'cepDestino' => '75640000',
-        'peso' => 5,
+        'peso' => 25,
         'formato' => 1,
         'comprimento' => 50,
         'altura' => 20,

@@ -13,9 +13,8 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "": "Correios/src/",
-            "Correios\\": "Correios/src/"
+        "psr-0": {
+            "": "Correios/src/"
         }
     },
     "require": {

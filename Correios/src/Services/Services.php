@@ -1,8 +1,8 @@
 <?php
 
-namespace Correios\Services;
+namespace Services;
 
-use Correios\Error\Error;
+use Error\Error;
 
 /**
  * Description of Services
