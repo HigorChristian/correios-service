@@ -1,7 +1,7 @@
 {
     "name": "higorch/correios-service",
     "description": "Consumir o web services dos correios com php, retornando preço, prazo e etc...",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "type": "library",
     "keywords": ["frete", "prazo", "Correios"],
     "time": "2016-05-29",
